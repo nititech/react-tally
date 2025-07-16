@@ -1,0 +1,46 @@
+{
+	"name": "react-tally",
+	"version": "0.0.9",
+	"description": "Inofficial wrapper Form Tally Forms to use easily with React",
+	"author": "Nikita 'donnikitos' Nitichevski <me@donnikitos.com> (https://nititech.de/)",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com:nititech/react-tally.git"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"typescript": "^5.8.3",
+		"vite": "^6.3.4",
+		"vite-plugin-dts": "^4.5.3"
+	},
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js",
+			"require": "./dist/index.cjs"
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"homepage": "https://github.com/nititech/react-tally",
+	"keywords": [
+		"react",
+		"react component",
+		"Tally",
+		"Tally Forms",
+		"Tally Form Builder",
+		"React Tally",
+		"Tally integration"
+	],
+	"license": "MIT",
+	"scripts": {
+		"build": "npx vite build",
+		"prepack": "npx vite build"
+	},
+	"type": "module",
+	"dependencies": {},
+	"peerDependencies": {
+		"react": ">=18"
+	}
+}
