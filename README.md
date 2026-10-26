@@ -1,6 +1,6 @@
 # React Tally Wrapper
 
-A lightweight React wrapper for embedding [Tally.so](https://tally.so) forms with ease.\
+A lightweight React wrapper for embedding [Tally.so](https://tally.cello.so/tgA5SzH3fwl) forms with ease.\
 Supports all Tally embed features, event listeners, and customization options via props.
 
 ## Features
